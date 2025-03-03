@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>REAWAKENING ETHEREUM v3</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<p><strong>REAWAKENING ETHEREUM’S CYPHERPUNK SOUL</strong></p>
+<p><strong>By: Dybsy</strong></p>
+<p>Ethereum stands at a crossroads.</p>
+<p>Born from the vision of a decentralized “world computer,” it was
+meant to empower individuals with uncensorable applications and
+financial self-sovereignty. Yet, as it grows, it faces mounting pressure
+to conform – whether from commercialization that prioritizes convenience
+over decentralization, or from regulators demanding compliance at odds
+with privacy and censorship resistance.</p>
+<p>This paper argues that Ethereum must realign with its
+<strong>cypherpunk first principles</strong> to remain true to its
+founding ideals and ensure its long-term resilience. In the face or
+corporate influence and government oversight, Ethereum’s community
+should recommit to the values of decentralization, privacy, and credible
+neutrality that sparked the blockchain revolution.</p>
+<p>By examining insights from Ethereum’s own leaders and the original
+cyperphunk pioneers, critiquing key governance decisions, and charting a
+path forward, I present a compelling case for making Ethereum cypherpunk
+again – not for nostalgia’s sake, but to secure the network’s future as
+an open platform beyond any state or corporate control.</p>
+<p><strong>Ethereum’s Cypherpunk Foundations</strong></p>
+<p>Ethereum did not emerge in a vacuum – it was “born into a
+counter-cultural movement, a cypherpunk movement.”<a href="#fn1"
+class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The
+cypherpunks of the late 20<sup>th</sup> century were a group of
+cryptographers and activists determined to use technology to protect
+individual liberty in an age of expanding digital surveillance.</p>
+<p>They believed in privacy, decentralization, and cryptographic
+guarantees of freedom, coalescing around ideas like the <em>Cypherpunk’s
+Manifesto</em>, which declared: “We must defend our own privacy if we
+expect to have any. We must come together and create systems which allow
+anonymous transactions to take place ... Cypherpunks write code...”<a
+href="#fn2" class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></p>
+<p>This ethos inspired the first cryptocurrencies and ultimately
+Ethereum itself.</p>
+<p>Vitalik Buterin and the Ethereum founding team were deeply influenced
+by Bitcoin and the cypherpunk ideals behind it. Ethereum’s original
+mission was explicitly phrased in cypherpunk terms: to “build
+unstoppable applications, empower decentralized communities, and ensure
+financial sovereignty.”<a href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a><a href="#fn4" class="footnote-ref"
+id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+<p>In other words, Ethereum aimed to extend Bitcoin’s liberating
+properties (censorship-resistant money) into a platform for <em>all</em>
+forms of decentralized applications. As Joe Lubin recalls, the vision
+was a world where no central authority could arbitrarily shut down your
+software or seize your digital assets – <em>“unstoppable
+applications”</em> running on a global, permissionless network.<a
+href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a> The mantra “code is law” captured
+the intent that smart contracts on Ethereum would enforce rules
+impartially, beyond the reach of any court or regulator.</p>
+<p>Cypherpunk philosophy is baked into Ethereum’s DNA. Gavin Wood coined
+the term Web3 to describe Ethereum as part of a decentralized internet
+stack.<a href="#fn6" class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a> In this vision, Ethereum provides a
+trustless computation layer – a “shared hard drive” – complemented by
+peer-to-peer messaging and distributed storage to replace the
+centralized servers of Web2.<a href="#fn7" class="footnote-ref"
+id="fnref7" role="doc-noteref"><sup>7</sup></a> Wood illustrated Web3’s
+architecture of Ethereum + P2P networks as an open alternative to
+today’s corporate cloud platforms. The goal was to “extend the spirit of
+open-source software to the world of today” by building systems that no
+single entity can control or censor.<a href="#fn8" class="footnote-ref"
+id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>From the start, Ethereum’s creators spoke the language of
+cypherpunks. Decentralization was not just a means but an end in itself
+– Ethereum was designed to “continue working even if its core developers
+disappear forever.”<a href="#fn9" class="footnote-ref" id="fnref9"
+role="doc-noteref"><sup>9</sup></a> Censorship-resistance was paramount
+– “no centralized actor should have the power to interfere with any user
+or dAPP,” and “concerns around bad actors should be addressed at higher
+layers,” not by compromising the base layer’s neutrality.<a href="#fn10"
+class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>
+The network was to be globally auditable and trust-minimized, such that
+anyone could run a node to verify what’s happening.<a href="#fn11"
+class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>
+In short, Ethereum strove to fulfill Nick Szabo’s dictum that “trusted
+third parties are security holes” by eliminating unnecessary
+intermediaries and letting cryptographic protocols, not middlemen,
+guarantee integrity.<a href="#fn12" class="footnote-ref" id="fnref12"
+role="doc-noteref"><sup>12</sup></a></p>
+<p>Crucially, Ethereum expanded the cypherpunk ambition beyond digital
+cash. As Vlad Zamfir noted, “In Ethereum, we went much further than
+Bitcoin and said we didn’t just want to do this for money, but for
+everything.”<a href="#fn13" class="footnote-ref" id="fnref13"
+role="doc-noteref"><sup>13</sup></a> The Ethereum community sought to
+apply cryptographic freedom technology to social contracts,
+organizations, and markets of all kinds. This aligns with Tim May’s
+<em>Crypto Anarchist Manifesto</em>, which foresaw a revolution where
+“computer technology provides the ability for individuals and groups to
+interact anonymously… altering completely the nature of government
+regulation.”<a href="#fn14" class="footnote-ref" id="fnref14"
+role="doc-noteref"><sup>14</sup></a> Ethereum picked up that torch,
+aiming to “fundamentally alter the nature of corporations and of
+government interference in economic transaction.<a href="#fn15"
+class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>
+The very term “smart contract” (coined by Szabo) encapsulates the idea
+of encoding agreements in unstoppable code, beyond the reach of legal
+coercion.</p>
+<p>It's no exaggeration to say Ethereum represented “a specter haunting
+the modern world – the specter of crypto anarchy.”<a href="#fn16"
+class="footnote-ref" id="fnref16" role="doc-noteref"><sup>16</sup></a>
+By 2015, this specter had materialized into a live blockchain network
+where anyone could deploy applications that no bank or government could
+shut down. The launch of Ethereum realized what Hal Finney had
+envisioned in 1992: “The computer can be used as a tool to liberate and
+protect people, rather than to control them.”<a href="#fn17"
+class="footnote-ref" id="fnref17" role="doc-noteref"><sup>17</sup></a>
+Finney’s prophetic words – written when he discovered David Chaum’s
+ideas on digital cash – resonate with Ethereum’s ethos of empowering
+users. Chaum himself, decades earlier, had championed “security without
+identification” and transaction systems to “make Big Brother
+obsolete.”<a href="#fn18" class="footnote-ref" id="fnref18"
+role="doc-noteref"><sup>18</sup></a> Ethereum’s permissionless design
+was a direct attempt to provide freedom from centralized surveillance
+and control, turning those cypherpunk theories into practice.</p>
+<p>In summary, Ethereum’s foundational values – decentralization,
+censorship-resistance, privacy, open access, and self-sovereignty – are
+drawn straight from the cypherpunk playbook. That is why early Ethereum
+community members saw themselves as part of the same movement. They were
+not merely building a fintech platform; they were building a political
+and social alternative. But as we shall see, living up to those
+principles has become an increasing challenge as Ethereum matured and
+confronted the realities of mass adoption.</p>
+<p><strong>Drifting from the Path: Commercialization and
+Compliance</strong></p>
+<p>Over the past several years, Ethereum’s explosive growth has tested
+its commitment to its first principles. On the one hand, mainstream
+success has validated Ethereum’s utility; on the other, it has brought
+pressures that risk diluting its cypherpunk ethos. The 2017 ICO boom,
+the 2020-21 DeFi and NFT crazes, and the 2022 Merge to Proof-of-Stake
+each ushered in new stakeholders – traders, corporations, even
+governments – whose priorities can diverge from decentralization and
+privacy.</p>
+<p>Ethereum’s culture and technology have shown signs of bending under
+these influences. As Vitalik observed, “since 2017 or so, [the original]
+visions have faded somewhat into the background… there is a large
+ideological rift” between the crypto community and the broader tech
+world.<a href="#fn19" class="footnote-ref" id="fnref19"
+role="doc-noteref"><sup>19</sup></a> He laments that “few talk about
+consumer crypto payments” or non-financial dApps now, and that high fees
+turned the blockchain into a playground mostly for “degen gamblers”
+during bull markets. In Vitalik’s view, this “adjusts the crypto space’s
+internal culture, leading to many of the negatives we have seen” – a
+polite way to say that money and hype have partially eclipsed the early
+idealism.<a href="#fn20" class="footnote-ref" id="fnref20"
+role="doc-noteref"><sup>20</sup></a></p>
+<p>One clear sign of drift is the increasing compliance of major
+Ethereum players with regulatory demands that run counter to cypherpunk
+values. The most glaring example came in August 2022, when the U.S.
+Treasury’s Office of Foreign Assets Control (OFAC) sanctioned the
+Tornado Cash mixer contract. Tornado was a privacy tool allowing users
+to break the link between their addresses and funds – essentially
+Chaumian digital cash implemented via smart contract. The OFAC action
+effectively outlawed interaction with Tornado by U.S. persons.
+Shockingly, several infrastructure providers immediately fell in line.
+Infura and Alchemy began blocking requests to Tornado’s smart contract,
+and Circle froze USDC balances, and even some frontends like AAVE
+blacklisted those addresses.<a href="#fn21" class="footnote-ref"
+id="fnref21" role="doc-noteref"><sup>21</sup></a> This unilateral
+corporate compliance undermined the notion of Ethereum as an
+unstoppable, neutral platform. The fact that a DeFi user could be
+“denied access to services” due to external blacklists is exactly what
+cypherpunks warned about.<a href="#fn22" class="footnote-ref"
+id="fnref22" role="doc-noteref"><sup>22</sup></a></p>
+<p>More troubling was the response at the protocol level after the
+Merge. By October 2022, it was observed that over 50% of Ethereum blocks
+were being produced by relays that enforced OFAC sanctions, excluding
+Tornado-related transactions.<a href="#fn23" class="footnote-ref"
+id="fnref23" role="doc-noteref"><sup>23</sup></a> This was largely due
+to the popularity of MEV-Boost relays (like Flashbots) used by stakers
+to outsource block construction. In effect, a majority of block
+proposers were voluntarily censoring certain transactions. Martin
+Koppelmann noted the “sad milestone” when “52% of all blocks” were
+subject to the content curation of a single relay.<a href="#fn24"
+class="footnote-ref" id="fnref24" role="doc-noteref"><sup>24</sup></a>
+He remarked that the rapid roll-out of MEV-Boost “in hindsight was a
+mistake” without more safeguards against censorship, as it let one
+entity’s policy affect a majority of blocks.<a href="#fn25"
+class="footnote-ref" id="fnref25"
+role="doc-noteref"><sup>25</sup></a></p>
+<p>This scenario – a supposedly decentralized blockchain where half the
+block producers follow government sanctions – starkly contradicts the
+cypherpunk ideal of routing around censorship. John Gilmore’s famous
+maxim that “The Net interprets censorship as damage and routes around
+it” underscores that even centralized actors, like an exchange that
+might be compelled to enforce such measures, should not dictate protocol
+behaviour. Decentralized networks must be resilient.<a href="#fn26"
+class="footnote-ref" id="fnref26" role="doc-noteref"><sup>26</sup></a>
+Ethereum’s reality in late 2022 was more disconcerting: the network
+<em>tolerated</em> a significant amount of censorship at its core.</p>
+<p>Ethereum’s leaders themselves expressed ambivalence on how to handle
+this. Vitalik argued that if an individual home validator chooses to
+censor, that “should be tolerated” to avoid becoming a “morality
+police.”<a href="#fn27" class="footnote-ref" id="fnref27"
+role="doc-noteref"><sup>27</sup></a> He maintained that slashing should
+be reserved only for concerted attacks like trying to reorg the chain
+and “not [for] making wrong choices about what to put in your own
+[block].”<a href="#fn28" class="footnote-ref" id="fnref28"
+role="doc-noteref"><sup>28</sup></a> In Vitalik’s view, as long as
+<em>some</em> validators include the censored transactions (resulting in
+delays but eventual inclusion – what Justin Drake calls “weak
+censorship”<a href="#fn29" class="footnote-ref" id="fnref29"
+role="doc-noteref"><sup>29</sup></a>), the situation, while undesirable,
+is tolerable. Weak censorship degrades user experience but doesn’t
+completely bar transactions from the chain.</p>
+<p>The nightmare scenario is “strong censorship” – a majority actively
+refusing certain transactions so that they <em>never</em> get
+included.<a href="#fn30" class="footnote-ref" id="fnref30"
+role="doc-noteref"><sup>30</sup></a> That would mean a user’s funds
+could be effectively frozen on Ethereum, violating property rights as
+surely as a bank freeze. Fortunately, Ethereum did not reach that
+threshold; non-censoring validators continued to include Tornado
+transactions, preventing a complete lock-out. But the fact remains: the
+Ethereum protocol did <em>not</em> natively route around censorship – it
+relied on social coordination and goodwill to counteract it.</p>
+<p>This tenuis state alarmed many in the community who remembered that
+Ethereum was supposed to be “neutral, and in such a way that anyone can
+see that is neutral.”<a href="#fn31" class="footnote-ref" id="fnref31"
+role="doc-noteref"><sup>31</sup></a></p>
+<p>Another area of concern is the centralization trend in staking and
+infrastructure. After the switch to Proof-of-Stake in 2022, Ethereum’s
+security now depends on validators who stake ETH. But over 60% of staked
+ETH is concentrated in a handful of providers (Lido, Coinbase, Kraken,
+Binance).<a href="#fn32" class="footnote-ref" id="fnref32"
+role="doc-noteref"><sup>32</sup></a></p>
+<p>Lido alone accounts for roughly one-third of the stake – a level that
+Danny Ryan argued that no single staking entity should exceed, because
+it undermines security and decentralization.<a href="#fn33"
+class="footnote-ref" id="fnref33" role="doc-noteref"><sup>33</sup></a>
+If one provider controls greater than 33%, they could theoretically halt
+finality; greater than 50% could soft-fork or censor; greater than 66%
+could outright seize control of the chain.</p>
+<p>Despite these risks, market forces have still favoured the largest
+pools (“liquidity begets liquidity”<a href="#fn34" class="footnote-ref"
+id="fnref34" role="doc-noteref"><sup>34</sup></a>), and efforts to
+self-limit have been voted down, such as when Lido actively opposed
+Ethereum’s “no monocultures” ethos and over 99% of its voters rejected
+capping its market share.<a href="#fn35" class="footnote-ref"
+id="fnref35" role="doc-noteref"><sup>35</sup></a> This approach suggests
+Lido’s intent to establish a staking monopoly–indeed, its vote signaled
+that community concerns were less important than “growth at any cost.”<a
+href="#fn36" class="footnote-ref" id="fnref36"
+role="doc-noteref"><sup>36</sup></a></p>
+<p>The outcome is that Ethereum’s validator set, while more
+geographically distributed than mining was, is still far from the ideal
+of decentralization. This concentration makes the platform more
+vulnerable to pressure; e.g., a regulator can subpoena a large
+U.S.-based exchange validator or a few big node operators, rather than
+having to coerce thousands of independent home stakers. It also flies in
+the face of the cypherpunk vision of <em>many small participants instead
+of a few large intermediaries. “Trusted third parties… frequently make
+mistakes or abuse power”</em>, Szabo wrote, pointing out why reliance on
+big custodians is dangerous.<a href="#fn37" class="footnote-ref"
+id="fnref37" role="doc-noteref"><sup>37</sup></a><a href="#fn38"
+class="footnote-ref" id="fnref38" role="doc-noteref"><sup>38</sup></a>
+Ethereum’s reliance on Lido and centralized exchanges in staking
+arguably reintroduces trust parties through the backdoor.</p>
+<p>In contrast, Rocket Pool has remained more decentralized by design,
+even imposing an 8 ETH minipool requirement that limits its growth.
+Rocket Pool voluntarily took the opposite path to Lido, pledging to
+self-limit its own market share (around 22% maximum) and broadens its
+node operator base as a safeguard against any single provider dominating
+Ethereum).<a href="#fn39" class="footnote-ref" id="fnref39"
+role="doc-noteref"><sup>39</sup></a> Another promising mechanism is
+FOCIL (EIP-7805), which enforces “inclusion lists” at the protocol level
+so that even transactions targeted for censorship are forced into
+blocks.<a href="#fn40" class="footnote-ref" id="fnref40"
+role="doc-noteref"><sup>40</sup></a> FOCIL requires only a single honest
+validator in a committee to include a censored transaction, thwarting
+even majority censorship attempts.<a href="#fn41" class="footnote-ref"
+id="fnref41" role="doc-noteref"><sup>41</sup></a></p>
+<p>We must also consider Layer2 scaling solutions and their impact on
+first principles. Ethereum’s roadmap since 2020 became <em>“roll-up
+centric”</em>, meaning most users and transactions are expected to
+migrate to Layer-2 networks that post data to Ethereum but execute
+off-chain.<a href="#fn42" class="footnote-ref" id="fnref42"
+role="doc-noteref"><sup>42</sup></a> Rollups like Optimism, Arbitrum,
+Base, zkSync, and Starknet indeed offer greatly increased throughput and
+lower fees – addressing a real need. But today, most rollups are not
+sufficiently decentralized. They often have a single sequencer node
+operated by the rollup’s team, which orders transactions.</p>
+<p>These sequencers could censor or reorder transactions at will; users
+have to trust it (at least until there are fraud proofs or
+permissionless sequences). Moreover, many rollups started as
+multisig-controlled “Layer2s” – essentially sidechains secured by a
+handful of keys. Vitalik cautioned about this directly: “One can build a
+system that one calls a ‘Layer2’, but which is actually a highly
+centralized system secured by a multisig, with no plans to ever switch
+to something more secure.”<a href="#fn43" class="footnote-ref"
+id="fnref43" role="doc-noteref"><sup>43</sup></a> If such systems
+persist, Ethereum could devolve into a base layer that is decentralized
+in name only, while activity migrates to corporate-controlled networks
+riding on top. That outcome would be akin to using Ethereum as a
+settlement layer of a new set of “too big to fail” intermediaries –
+hardly the cypherpunk dream.</p>
+<p>Vitalik has argued strongly against complacency here: “Resisting
+these pressures is hard, but if we do not do so, then we risk losing the
+unique value of the crypto ecosystem, and [we risk] recreating a clone
+of the existing web2 ecosystem with extra inefficiencies and extra
+steps.”<a href="#fn44" class="footnote-ref" id="fnref44"
+role="doc-noteref"><sup>44</sup></a> Vitalik reiterated the core values
+that must guide Ethereum development: decentralization, censorship
+resistance, auditability, credible neutrality, “building tools, not
+empires”, cooperation.<a href="#fn45" class="footnote-ref" id="fnref45"
+role="doc-noteref"><sup>45</sup></a> He gave concrete examples of what
+<em>not</em> to do – like a “staking interface that needlessly funnels
+users toward the already-largest staking pool”, or an NFT platform that
+stores data on centralized servers. Each example reflects real
+tendencies we’ve seen. His warning is clear: Ethereum could slip into
+being just another walled garden or fintech warren if economic
+convenience consistently trumps decentralization. In short, Ethereum
+faces a creeping “Web2-ification”: the growth of <em>quasi-monopolies
+and chokepoints</em> in an ecosystem that set out to eliminate them.</p>
+<p>To be fair, Ethereum is still far more decentralized and open than
+traditional financial or internet platforms. It continues to be a leader
+in public blockchain development, and many community members are acutely
+aware of these issues. But the trends point to a subtle but significant
+shift away from the uncompromising cypherpunk stance of Ethereum’s early
+years. This drift is not irreversible, but it is alarming to those who
+believe Ethereum’s core value is as a bulwark against centralized
+control. Decades ago, John Gilmore noted that every system faces a
+tension between the “faceless organizations” that seek more control and
+the individuals who seek more freedom.<a href="#fn46"
+class="footnote-ref" id="fnref46" role="doc-noteref"><sup>46</sup></a>
+Ethereum is now experiencing that tension firsthand. The next sections
+will draw on thought leaders’ perspectives and specific governance
+flashpoints to illustrate the urgency of realigning Ethereum with its
+founding principles.</p>
+<p><strong>Voices from Ethereum’s Community: Back to Basics</strong></p>
+<p>Despite the challenges, Ethereum retains a strong contingent of
+voices advocating for the project’s original values. Many prominent
+figures in the Ethereum community have spoken out about the importance
+of decentralization, privacy, and credible neutrality – often echoing
+cypherpunk themes directly. Let’s highlight some of these insights from
+Ethereum’s thought leaders, and how they frame the need to
+course-correct.</p>
+<p><strong>Vitalik Buterin</strong><a href="#fn47" class="footnote-ref"
+id="fnref47" role="doc-noteref"><sup>47</sup></a> has emphasized a
+return to first principles. In <em>“Make Ethereum Cypherpunk
+Again,”</em> he stresses decentralization (“minimize dependence on any
+single actor”), censorship-resistance (no centralized actor should block
+users), and credible neutrality of the base layer​. He defines credible
+neutrality as infrastructure that “should be neutral, and in such a way
+that anyone can see that it is neutral even if they don’t already trust
+the developers.”​</p>
+<p>In other words, the protocol must <em>demonstrably</em> treat all
+users and transactions equally – a direct nod to avoiding biases or
+blacklists. Vitalik has also championed privacy. He recently implemented
+support for stealth addresses (one-time addresses for private receipts)
+and has advocated “Privacy Pools” as a successor to Tornado Cash​.</p>
+<p>In 2022, he tweeted: “I’ll oppose regulations that harm privacy or
+decentralization. We don’t need KYC on DeFi frontends; that’d only
+punish users while doing nothing to bad actors.” This aligns with his
+view that Ethereum should not become an arm of financial surveillance.
+Instead, he encourages building public goods like zk-Snark based voting
+and identity tools that give individuals privacy by default​</p>
+<p>Vitalik’s recent work on zero-knowledge proofs for identity (e.g. ZK
+attestations via projects like Zupass) shows a commitment to
+<em>practical cypherpunk solutions</em> – letting users prove things
+about themselves without revealing personal data​. He paints a picture of
+an “Ethereum-y cypherpunk world” where we hold assets in self-custody,
+use anonymity systems for privacy, and participate in governance
+pseudonymously​. Vitalik acknowledges the cultural drift and explicitly
+wants to recenter the narrative around cypherpunk values:
+<em>“Decentralization, open participation, censorship resistance and
+credible neutrality”</em> should again become Ethereum’s north star​.</p>
+<p><strong>Joseph Lubin</strong><a href="#fn48" class="footnote-ref"
+id="fnref48" role="doc-noteref"><sup>48</sup></a> offers a perspective
+from the intersection of Ethereum and regulators, and, interestingly, he
+has become more outspoken in defense of Ethereum’s core principles as
+governments have stepped up scrutiny. In a 2024, Lubin described the
+U.S. SEC’s approach as <em>“gaslighting the industry”</em> and asserted
+that the agency <em>“wants to reclassify ETH [as a security]”</em>,
+which he is fighting against​. Lubin frames the conflict starkly: “Our
+technology is about disintermediation… giving people and communities
+direct financial and political agency. [The powers that be] don’t want a
+world where people have direct access… It’s [about] trying to kill or
+slow this new technology.”​</p>
+<p>Coming from someone who works closely with enterprises and
+governments, this is a strong reaffirmation of cypherpunk ethos –
+<em>empowering individuals versus entrenched institutions</em>. Lubin
+also insists that Ethereum post-Merge is more decentralized and secure
+than ever, pushing back against the SEC’s insinuation that PoS made
+Ethereum more centrally controlled​</p>
+<p>He emphasizes that validators “should be seen as [earning] income…
+There is no investment contract” in simply participating in consensus​.
+Lubin’s fight with the SEC (ConsenSys suing the SEC in 2023) is
+essentially a fight to keep Ethereum free and open in the face of
+regulation. Perhaps Lubin’s most impassioned comment was: “Something
+unforgivable is that you [crypto companies] keep developing services
+trying to be banks – the world doesn’t need more banks.”​</p>
+<p>He was referring to exchanges acting as overly compliant custodians,
+and urged the industry (his own company included) to <em>not</em>
+recreate the legacy financial system, but to stick to crypto’s roots of
+user empowerment. It’s heartening to see a figure like Lubin, often
+associated with mainstream adoption, publicly championing privacy and
+decentralization – speaking of Ethereum as part of a broader struggle
+for the “future of the internet” against overreach​.</p>
+<p><strong>Gavin Wood</strong><a href="#fn49" class="footnote-ref"
+id="fnref49" role="doc-noteref"><sup>49</sup></a> insisted on
+formalizing governance (he felt Ethereum’s governance was too ad-hoc
+during The DAO crisis) and that on-chain decision-making was another
+angle of aligning protocol behavior with stated values. He feared the
+“governance by social media” approach could lead to inconsistencies in
+upholding principles. Wood’s perspective spurred discussion on how to
+make Ethereum’s governance transparent and incorruptible. Gavin also
+stressed technological sovereignty, coining “Web 3.0” to mean a web
+where “decentralized protocols replace tech giants”​. Today, that term is
+widely used (and misused), but its origin signals a direct continuity
+from cypherpunk ideals (anti-censorship, anti-monopoly) to Ethereum’s
+mission.</p>
+<p><strong>Balaji Srinivasan</strong><a href="#fn50"
+class="footnote-ref" id="fnref50" role="doc-noteref"><sup>50</sup></a>
+wrote in his 2017 piece <em>“Quantifying Decentralization,”</em> (with
+L. Lee) that “[t]he primary advantage of Bitcoin and Ethereum over their
+legacy alternatives is… decentralization.”​ He introduced the concept of
+the Nakamoto coefficient as a measure of how many distinct entities it
+takes to collude to control a system​</p>
+<p>This idea has become influential in Ethereum discussions post-Merge.
+For example, people note that Ethereum’s Nakamoto coefficient across
+various subsystems (nodes, clients, validators, etc.) should be high to
+be truly decentralized​.<a href="#fn51" class="footnote-ref" id="fnref51"
+role="doc-noteref"><sup>51</sup></a> Balaji’s broader message was that
+we must <em>measure and improve</em> decentralization continuously, lest
+hidden central points undermine security​</p>
+<p>He famously stated that “any blockchain is only as decentralized as
+its least decentralized subsystem,” highlighting that even if consensus
+is decentralized, reliance on centralized exchanges or APIs can
+compromise the whole. This holistic view has galvanized efforts to
+decentralize every layer of Ethereum – from the node infrastructure to
+oracles, bridges, and more. Srinivasan’s push for objective metrics
+serves as a reminder that decentralization isn’t a feel-good slogan –
+it’s a property that can be lost if not rigorously safeguarded​.</p>
+<p><strong>Danny Ryan</strong><a href="#fn52" class="footnote-ref"
+id="fnref52" role="doc-noteref"><sup>52</sup></a> has been vocal about
+preserving decentralization in the new Proof-of-Stake era. He sounded
+the alarm on liquid staking centralization, and argued that it’s not in
+users’ true interest to chase slightly higher liquidity. Although he is
+a technologist, his stance is essentially a moral and practical appeal
+to decentralization – recognizing that convenience (pooling into the
+biggest platform) can create systemic fragility. Post-Merge, Danny also
+highlighted the <em>benefits</em> PoS brought in terms of lowering
+barriers to participation: no need for specialized mining hardware means
+“it’s much easier for many participants to participate” as validators,
+making consensus “a bit more egalitarian”​</p>
+<p>This reflects the intent behind PoS: to further democratize Ethereum;
+however, Danny knows this promise only holds if thousands of individuals
+<em>do</em> participate, rather than delegating to a few large pools.
+His continued involvement in research like Distributed Validator
+Technology (DVT) – which spreads a validator’s duties across multiple
+nodes – is aimed at enabling more robust, decentralized staking. In
+short, Danny Ryan provides a voice of technical conscience, ensuring
+Ethereum’s evolution doesn’t sacrifice the decentralization that secures
+it.</p>
+<p>Recently, speaking at ETHDenver<a href="#fn53" class="footnote-ref"
+id="fnref53" role="doc-noteref"><sup>53</sup></a> in 2025 following his
+appointment to Etherealize, Danny talked about <em>just doing it</em> –
+that is, walking the path toward the new vision of blockchain adoption,
+such as Larry Fink’s call to tokenize <em>everything</em>. Danny argued
+that the regulatory pendulum always swings, and the Ethereum community
+has a short window in which to ensure the comeback is not too great.</p>
+<p><strong>Vlad Zamfir</strong><a href="#fn54" class="footnote-ref"
+id="fnref54" role="doc-noteref"><sup>54</sup></a> offers a thoughtful
+counterpoint on some cypherpunk dogmas, yet ultimately reinforces
+Ethereum’s need to define its own rules rather than bow to external
+ones. Vlad infamously stated “Code is not law”, arguing that the
+doctrine of absolute immutability in blockchains is “not a legitimate
+rule” in all cases​. He pointed out that “immutability…presents a model
+of governance” of its own​ – essentially, choosing never to hard-fork is
+itself a governance choice (one he felt was “hyper-paranoid” about state
+power​). Zamfir was a proponent of acknowledging the social layer: that
+sometimes the community must make decisions (as with The DAO fork) to
+reflect its values. Some see this as anti-cypherpunk, since cypherpunks
+tend to prefer strict rules over human intervention.</p>
+<p>But Zamfir’s deeper message is that Ethereum should develop its own
+native governance and legal system (“crypto law”)<a href="#fn55"
+class="footnote-ref" id="fnref55" role="doc-noteref"><sup>55</sup></a>​,
+rather than naively hoping to be above all law. He warned in 2019 that
+governments “will not let such a disruptive revolution take place”
+without challenge, and that “Ethereum needs to adapt” its legal
+approach​. At Devcon 5, he urged developers to plan for legal crises
+rather than just grow and hope to be too big to regulate​. Importantly,
+Vlad reminded the community that Ethereum was born from a cypherpunk,
+counter-cultural movement, but to fulfill its aim it might need to
+engage with law on its own terms​.<a href="#fn56" class="footnote-ref"
+id="fnref56" role="doc-noteref"><sup>56</sup></a> His push resulted in
+projects like OpenLaw and discussions around on-chain dispute
+resolution.</p>
+<p>While opinions differ on how to handle governance, Zamfir’s influence
+ensured that Ethereum’s values were debated openly – e.g., to what
+extent “code is law” should hold. The fact that Ethereum did not bail
+out subsequent hacks (like the Parity multisig 2017) shows a nuanced
+balance: the community’s social consensus is ultimately what enforces
+the cypherpunk ethos. If the community strongly believes in no bailouts,
+that norm will hold. Ethereum’s social layer thus becomes the guarantor
+of principles – a very cypherpunk notion in itself (distrusting even
+code at times, trusting voluntary human consensus).</p>
+<p><strong>Others in the community</strong> have lent their voices:
+<em>Hudson Jameson</em>, who facilitated Ethereum core dev calls for
+years, often highlighted the importance of transparency and community
+input in decisions<a href="#fn57" class="footnote-ref" id="fnref57"
+role="doc-noteref"><sup>57</sup></a> – keeping governance participatory
+(he embodied the <em>“cooperative mindset”</em> Vitalik listed​).
+<em>Justin Drake</em>, beyond his technical work on randomness and
+cryptography, co-authored proposals like PBS (Proposer-Builder
+Separation) explicitly to mitigate MEV centralization and censorship by
+enshrining neutrality in the protocol​.<a href="#fn58"
+class="footnote-ref" id="fnref58" role="doc-noteref"><sup>58</sup></a><a
+href="#fn59" class="footnote-ref" id="fnref59"
+role="doc-noteref"><sup>59</sup></a> Drake defined the distinction
+between <em>“weak”</em> and <em>“strong”</em> censorship as noted,
+educating the community on why any drift toward the latter must be
+prevented​. <em>Preethi Kasireddy</em>, an educator and developer,
+eloquently wrote about the <em>“synergies”</em> of Ethereum’s
+decentralized ecosystem – how an open platform allows innovation to
+compound in a positive-sum way​.<a href="#fn60" class="footnote-ref"
+id="fnref60" role="doc-noteref"><sup>60</sup></a> She compared
+Ethereum’s network effects to the early internet, arguing that
+composability and permissionless innovation on Ethereum create a
+<em>“whole new type of network effect”</em> that centralized platforms
+cannot match​. Her perspective underscores that sticking to
+decentralization isn’t just morally right, it economically
+<em>amplifies</em> innovation (as dApps can plug into each other without
+gatekeepers)​.</p>
+<p>Finally, figures at the intersection of Ethereum and cypherpunk
+activism, like Edward Snowden, although not Ethereum developers, have
+indirectly bolstered Ethereum’s cause. Snowden has commented that
+“Bitcoin’s biggest flaw is its lack of privacy” and called it an
+“existential threat” to an otherwise great system​.<a href="#fn61"
+class="footnote-ref" id="fnref61" role="doc-noteref"><sup>61</sup></a>
+By extension, one can infer that Ethereum too must improve privacy or
+face the same threat. His statement that “lack of privacy is the only
+protection users have from political change” encapsulates why Ethereum
+must prioritize privacy tech​. Snowden also criticized crypto services
+that “expose [users]” and act like banks, which directly applies to
+things like Infura or centralized exchanges on Ethereum​. When such a
+prominent privacy advocate and whistleblower engages with crypto
+(Snowden even helped launch the privacy coin Zcash), it sends a message:
+don’t lose sight of why these networks exist. They exist to empower
+individuals in the face of surveillance and control.</p>
+<p>The chorus from these diverse voices is clear: Ethereum’s value
+proposition lies in its adherence to cypherpunk ideals. Decentralization
+is not negotiable; credible neutrality must be preserved; privacy needs
+to be protected and enhanced; and the community should proactively
+resist trends toward recentralization. There is also a realization that
+these principles must be <em>implemented</em> – through both technical
+measures and cultural norms – and not merely paid lip service. Next, we
+turn to concrete flashpoints in Ethereum’s history and present – from
+the DAO fork to OFAC compliance – to see where it succeeded or fell
+short, and what lessons they offer for the road ahead.</p>
+<p><strong>Governance Crossroad: Lessons from Key Decisions</strong></p>
+<p>Ethereum’s journey has been punctuated by critical governance
+decisions that tested its commitment to first principles. Examining
+these events can shed light on how Ethereum might better align with its
+cypherpunk ethos going forward. We will focus on a few key episodes –
+The DAO fork, OFAC censorship after the Merge, staking centralization
+issues, and the rollup-centric roadmap – analyzing each through the lens
+of Ethereum’s foundational values.</p>
+<p><u>The Dao Fork: Code vs Law vs Values</u></p>
+<p>In July 2016, just a year after launch, Ethereum faced an existential
+crisis: The DAO hack. An attacker exploited a bug in a prominent smart
+contract (the DAO) to drain 14% of all ETH. At that unique time, when
+forking was technically feasible and the ETH supply affected was
+proportionally massive, the community had to choose between adhering
+strictly to <em>immutable code</em> or intervening via a hard fork to
+undo the theft and restore the stolen ETH.</p>
+<p>In a controversial decision, the majority (led by Vitalik and the
+Foundation) chose to fork and restore the stolen ETH to a recovery
+contract. This created Ethereum as we know it and a spin-off chain,
+Ethereum Classic (ETC), where the hack was never reversed.</p>
+<p>This incident is often cast as a showdown between cypherpunk
+principles – immutability and rule by code – and human governance.
+Detractors say Ethereum “broke” the principle that blockchains are
+immutable, proving it will rewrite history under pressure, a slippery
+slope. Indeed, The DAO fork was a deviation from pure “code is law.”
+Nick Szabo was critical of the fork. Vlad Zamfir, by contrast, argued
+that clinging to absolute immutability in all cases is misguided. He
+posited that “immutability…is not a legitimate rule” if it leads to
+outcomes that undermine the community’s broader goals​.<a href="#fn62"
+class="footnote-ref" id="fnref62"
+role="doc-noteref"><sup>62</sup></a></p>
+<p>The community’s rationale for the fork was to protect users and
+Ethereum’s reputation from a devastating exploit – essentially, to
+enforce the <em>“spirit”</em> of the DAO contract (investors’ intent)
+over the <em>“letter”</em> of its buggy code. This was an early
+assertion of a kind of social layer sovereignty: the Ethereum community
+asserted that it, not a thief, ultimately controlled the chain’s
+destiny.</p>
+<p>What does this mean for Ethereum’s cypherpunk alignment? On one hand,
+Ethereum showed it would not be strictly anarcho-capitalist or
+absolutist about code – it acknowledged a role for human values and
+governance. On the other hand, the market punished Ethereum to an extent
+via the split: Ethereum Classic continued as a reminder that a faction
+felt the fork violated core principles (“Build unstoppable applications”
+– yet The DAO was stoppable). Over time, ETC’s importance waned, and
+Ethereum’s choice seemed vindicated as it enabled the platform to move
+on and flourish.</p>
+<p>The lesson here is complex: It may be that being true to cypherpunk
+<em>ideals</em> (like empowering users and protecting them from thieves)
+required violating one cypherpunk <em>axiom</em> (immutability). The DAO
+fork sets a precedent that Ethereum’s community will act – in
+extraordinary circumstances – to defend the broader vision of a fair,
+open system.</p>
+<p>Moving forward, the fork’s legacy is why Ethereum is <em>extremely
+reluctant</em> to ever fork for contract disputes again. The norm
+reasserted itself: “code is law” for dApps, and user beware. One can see
+this as Ethereum learning a middle path: use governance sparingly, but
+keep it as a backstop for <em>ethos</em>-level threats. As long as such
+social consensus exists, it can serve as the ultimate guardian of the
+network’s values (the “crypto legal system” Zamfir alluded to​).<a
+href="#fn63" class="footnote-ref" id="fnref63"
+role="doc-noteref"><sup>63</sup></a></p>
+<p>Indeed, this dissonance was implicated very recently when ByBit was
+hacked by North Korea’s “Lazarus” for $1.4 billion in ETH.<a
+href="#fn64" class="footnote-ref" id="fnref64"
+role="doc-noteref"><sup>64</sup></a> Vitalik and others were immediately
+petitioned for their perspectives on a hard fork to restore funds and
+much community debate ensued. No hard fork occurred.</p>
+<p>The DAO episode taught Ethereum the importance of clear values to
+guide tough calls – in that case, the community valued the integrity of
+the ecosystem over the absolutism of the ledger. Future crises (knock on
+wood) will likely be met with similar consideration of core principles:
+what course preserves Ethereum as a platform for <em>legitimate</em> use
+(not rewarding criminals or censors)? Ideally, improvements like better
+audited contracts, fail-safes, or insurance funds make such dilemmas
+rare.</p>
+<p><u>Censorship After the Merge: Holding the Line on Neutrality</u></p>
+<p>As discussed, after Ethereum transitioned to PoS, it encountered the
+censorship issue stemming from OFAC-sanctioned addresses. This was a
+pivotal governance challenge, even if no explicit on-chain vote
+occurred. The “governance” here was the collective behavior of
+validators and the out-of-protocol coordination to address
+censorship.</p>
+<p>When more than half of new blocks became OFAC-compliant (i.e.,
+excluding Tornado transactions)​<a href="#fn65" class="footnote-ref"
+id="fnref65" role="doc-noteref"><sup>65</sup></a>, the community grew
+alarmed. Debates raged on Twitter and forums: Should Ethereum socially
+slash validators who censor? Would users accept a fork of the chain that
+slashed, say, major staking pools if they formed a cartel to enforce
+OFAC rules?</p>
+<p>Some, like former Bitcoiner Eric Wall, argued for a “social
+slashing”<a href="#fn66" class="footnote-ref" id="fnref66"
+role="doc-noteref"><sup>66</sup></a> defense – essentially a
+user-activated soft fork that burns the stake of censors​. Vitalik and
+other developers signaled support for slashing in the extreme scenario
+of persistent wholesale censorship (strong censorship)​.</p>
+<p>But in practice, Ethereum has not had to cross that Rubicon. Instead,
+efforts went into mitigating the problem: <em>economic incentives</em>
+(MEV-Boost relays that don’t censor like Ultrasound Money relay started
+gaining share), <em>Proposer-Builder Separation (PBS) research</em> to
+allow inclusion of censored transactions via separate channels, and
+community pressure on entities like Flashbots to change. Köppelmann
+noted in October 2022 that Flashbots and others “committed to take
+actions if censorship [became] worse”, indicating that mere public
+scrutiny was having an effect​.<a href="#fn67" class="footnote-ref"
+id="fnref67" role="doc-noteref"><sup>67</sup></a> Indeed, by 2023 the
+percentage of OFAC-censoring blocks dropped as new neutral relays came
+online and validators adopted them.</p>
+<p>This episode is still ongoing, but it highlighted a key point: the
+Ethereum community by and large <em>rejects censorship</em> and is
+willing to engineer around it. It’s a real-time example of Gilmore’s
+principle – not automatically routing around damage, but consciously
+developing the means to route around it. The credible threat of a
+community fork or slashing likely discouraged any open collusion among
+large validators to enforce sanctions at the protocol level. Coinbase’s
+CEO Brian Armstrong even stated they would rather shut down staking
+service than engage in on-chain censorship, showing alignment with
+Ethereum’s ethos (and fear of backlash). This alignment of incentives
+with principles is crucial.</p>
+<p>Still, the fact that Ethereum had no built-in mechanism to prevent
+greater than 50% censorship was a wake-up call. It underscored the need
+to “enshrine” censorship-resistance into the protocol wherever possible.
+One proposal by researchers (including Justin Drake) is to enshrine PBS
+so that block proposers can always include <em>user-submitted “inclusion
+lists”</em> of transactions they want to guarantee get in​.<a
+href="#fn68" class="footnote-ref" id="fnref68"
+role="doc-noteref"><sup>68</sup></a> Another idea is decentralized
+sequencers for rollups to avoid L2 censorship (we’ll get to rollups
+next).</p>
+<p>The governance lesson is that Ethereum must be proactive: it cannot
+assume all validators will uphold neutrality out of goodwill. Social
+consensus can act as a safety net (as it did, implicitly), but technical
+measures to make censorship economically irrational or difficult are
+better. Ethereum’s credible neutrality was stressed, but ultimately not
+broken – a testament to the community’s shared values. This incident
+reinforced that the community will rally to preserve openness when
+confronted.</p>
+<p>Going forward, formalizing this – perhaps with explicit <em>protocol
+rules against censoring certain kinds of messages</em> or penalties for
+censorship – could strengthen Ethereum’s cypherpunk cred; however, such
+rules are tricky (how to distinguish censorship from network issues?).
+More likely is continued reliance on off-chain governance to handle any
+blatant censorship coalition, combined with software changes to minimize
+its likelihood.</p>
+<p><u>Staking and Infrastructure: Decentralize or Die</u></p>
+<p>Another governance concern is the centralization of critical
+infrastructure – namely staking providers and node infrastructure.
+Unlike censorship, which saw an immediate flare-up, this is a
+slow-burning issue of ecosystem governance: how to nudge the network
+towards greater decentralization.</p>
+<p>Ethereum’s protocol doesn’t currently cap how much ETH one entity can
+stake or how many validators a single operator runs, primarily because
+it is technically difficult to detect sock puppets and ensure fair
+distribution. It instead relies on the open market. Governance here has
+been more social and moral: prominent community members implore
+decentralization. For example, discussions on Ethereum Magicians forum
+and ETHResearch have floated ideas like <em>limiting protocol rewards
+after a certain threshold of stake per entity</em>, or building
+<em>in-protocol shuffling</em> of validators to mix assignments between
+pools. No such hard measures have been implemented (they risk unintended
+consequences). Instead, we’ve seen soft governance efforts: Lido, under
+community pressure, proposed self-limiting (which failed that vote in
+what can only be described as an act of defiance against Ethereum’s
+vision and ethos), and is now working on concepts like Lido V2 with
+Staking Router to onboard many more independent operators, diluting its
+centralization​.<a href="#fn69" class="footnote-ref" id="fnref69"
+role="doc-noteref"><sup>69</sup></a></p>
+<p>The Ethereum Foundation and client teams continue to emphasize
+running your own nodes and have made running a node lighter (e.g.
+<em>stateless client research, offloading history to protocols like
+Portal Network</em>). The Ultrasound Money community (Ethereum
+proponents who highlight ETH’s deflationary aspect) interestingly also
+emphasize decentralization, coining the meme “decentralization maximizes
+ultrasoundness” – meaning if the network is decentralized, it is more
+secure and thus the monetary properties hold. This kind of cultural
+framing uses even economic narratives to push first principles.</p>
+<p>One notable governance action was the client diversity effort. In
+early 2021, it was noticed that over 70% of Ethereum nodes ran the Geth
+client – a single codebase, a single point of failure. The community
+(led by people like Péter Szilágyi and Danny Ryan) rang alarm bells.
+Through <em>education, grants, and setting norms</em>, the Ethereum
+network by Merge time had a healthier distribution among multiple
+clients (Lighthouse, Prysm, Teku, Nimbus on consensus; Geth, Nethermind,
+Besu, Erigon on execution)​.<a href="#fn70" class="footnote-ref"
+id="fnref70" role="doc-noteref"><sup>70</sup></a></p>
+<p>This was an example of successful informal governance for a
+cypherpunk goal: no monocultures. It showed that decentralization can be
+achieved if the community agrees it’s critical and coordinates – in this
+case, node operators and staking pools consciously switched or balanced
+clients. Ethereum’s resilience post-Merge (no client bug brought down
+the network) validated that push.</p>
+<p>The broader lesson on infrastructure is that Ethereum must
+continuously identify centralization risks and address them through
+community coordination or protocol tweaks. Whether it’s reducing
+reliance on Infura (through light clients in browsers or alternative RPC
+networks like Pocket Network) or ensuring no single L2 becomes “too big
+to fail,” these are governance challenges that require collective
+action. They might not be resolved in all-hands votes, but through rough
+consensus and building the alternatives.</p>
+<p>In cypherpunk terms, this is the eternal vigilance required to “guard
+against the risks of going too far in being community-driven”, as
+Vitalik put it​ – interestingly warning that community whims should not
+override neutrality. That cuts both ways: just as we don’t want
+corporate dominance, we also don’t want a mob of users deciding to, say,
+exclude a minority they dislike. Thus, governance must be balanced by
+hard “norms of neutrality”​.<a href="#fn71" class="footnote-ref"
+id="fnref71" role="doc-noteref"><sup>71</sup></a></p>
+<p>For staking, this means even if users <em>want</em> the convenience
+of one-stop staking, we as a community must educate and provide
+alternatives to break the tendency toward central points.</p>
+<p><u>Rollups and Layer 2: Scaling Without Sacrificing Ethos</u></p>
+<p>Ethereum’s embrace of rollups as the preferred scaling solution is a
+strategic decision with governance and ethos implications. By choosing
+not to massively increase base layer throughput (to keep running a node
+affordable), Ethereum stays aligned with decentralization at Layer 1.
+Instead, the plan is to push activity to Layer 2 networks that inherit
+security from Layer 1. This rollup-centric roadmap raises the question:
+can these L2s maintain Ethereum’s cypherpunk values?</p>
+<p>In the short term, many rollups are corporate or VC-backed projects
+(e.g. Optimism PBC, Offchain Labs for Arbitrum, Matter Labs for zkSync).
+They often began centralized for speed of iteration. This has led to
+instances at odds with Ethereum’s ethos: e.g., Infura and Metamask
+blocking users on some L2s during Tornado sanctions (since those UIs
+were centralized). Also, a rollup operator could censor transactions or
+preferentially include their friends’ trades – basically recreating a
+mini version of a centralized system on top of Ethereum. The optimistic
+view (shared by Vitalik and rollup teams) is that over time, rollups
+will decentralize: they’ll have multiple sequencers, open validation
+(especially zk-rollups where anyone can validate proofs), and perhaps
+even community governance or alignment with ETH holders. But that
+transition is a governance challenge.</p>
+<p>Critics point out the risk of L2 fragmentation – if an L2 doesn’t
+uphold values, users might not notice since they experience the L2
+environment more than L1. For instance, an exchange could run a rollup
+where only KYC’d addresses can withdraw to L1, effectively creating a
+silo. Does Ethereum have a say in that? Possibly not directly – but
+<em>indirectly yes</em>: Ethereum could refuse to upgrade in ways that
+support such siloed rollups or socially oppose them. On the flip side,
+Ethereum has supported technologies like EIP-4844 (Proto-Danksharding)
+to massively reduce rollup costs​, actively fostering rollups. This is a
+bet that scalability can be achieved <em>without</em> compromising core
+values at L1, if rollups eventually mirror those values.</p>
+<p>Vitalik<a href="#fn72" class="footnote-ref" id="fnref72"
+role="doc-noteref"><sup>72</sup></a> has given guidance here too. He
+noted that one can launch <em>“a highly centralized system secured by a
+multisig”</em> and call it an L2, but that’s counter to Ethereum’s
+values​. The community should <em>“resist pressures”</em> to use such
+systems if they don’t plan to evolve toward trustlessness​. We see this
+in practice: truly centralized “L2s” (really just sidechains) like
+Polygon POS chain are not granted the same legitimacy in Ethereum
+circles as rollups are, precisely because they don’t inherit Ethereum
+security or decentralization (Polygon has its own 100 validators, which
+could collude). Instead, the Ethereum community tends to favor solutions
+that are <em>provably secured by Ethereum</em> (rollups publish data on
+L1 and have proofs or challenge periods). This preference is an
+<em>expression of cypherpunk values in scaling</em>: we prefer slower,
+more complex solutions if they preserve trustlessness, over quick but
+trust-based fixes. It shows a willingness to tolerate short-term
+inconvenience (needing to bridge to rollups, etc.) to uphold the
+long-term vision of an unstoppable, decentralized network of
+networks.</p>
+<p>Governance will soon come into play as rollups themselves
+decentralize. For example, if Optimism transitions to multiple
+sequencers or community governance of its protocol, will Ethereum
+stakeholders get involved? Possibly – there could be cross-domain
+governance issues, like how to manage shared bridges or fraud-proof
+referees that might involve L1 contracts. Ethereum L1 developers have
+also considered enshrining some rollup functionality (like a common
+fraud proof verifier) into the L1 protocol, which has governance
+implications (tying Ethereum’s fate to specific L2 implementations)​. So
+far, Ethereum has avoided enshrining any single rollup, opting to keep
+L1 general. This avoids picking winners – consistent with credible
+neutrality.</p>
+<p>In summary, the rollup strategy is Ethereum’s path to scale without
+increasing centralization at L1, and it seems largely compatible with
+cypherpunk principles if executed properly. The key will be ensuring
+rollups themselves don’t become the new centralized choke points.
+Governance of Ethereum may eventually extend to setting
+<em>standards</em> for rollups (e.g. requiring them to provide proofs
+for security, or encouraging social slashing if a rollup operator
+maliciously censors despite users exiting on L1). These are novel
+issues, but the community’s ethos can guide them: favor permissionless
+innovation, insist on the ability to exit to L1 (so users always retain
+self-custody ultimately), and promote interoperability so no L2 can
+become a monopoly. Vitalik envisions a future where <em>“we can have
+seamless integration between on-chain tokens and off-chain attestations…
+secure against centralized censorship”</em>​ – essentially a tapestry of
+Layers that upholds freedom. Achieving that is a governance journey we
+are just beginning.</p>
+<p>Across these scenarios, a common thread emerges: when Ethereum has
+deviated from cypherpunk ideals, either the community corrects course or
+consequences ensue. The DAO fork, while contentious, was arguably in
+service of fairness (a higher ideal). The OFAC compliance scare
+triggered a backlash and corrective measures. Staking centralization, if
+left unchecked, could erode Ethereum’s security and community trust –
+hence many are actively working to counter it. Rollups introduce
+temporary centralization, but the community is pushing them to
+decentralize as they mature. Ethereum’s informal governance – the
+debates, EIPs, social media discussions, and off-chain coordination –
+has been the mechanism to negotiate these trade-offs. It’s messy but has
+proved effective so far.</p>
+<p>However, the pressures will only increase as Ethereum grows. What
+happens when nation-states actively participate in staking or try to
+influence protocol changes? Or when large corporations build
+closed-source rollups that nonetheless settle on Ethereum? Ethereum will
+need a strong, explicit grounding in its first principles to navigate
+such challenges without fracturing. This leads us to consider concrete
+steps Ethereum can take to reclaim and reinforce its cypherpunk ethos,
+so that its trajectory over the next decade bends <em>away</em> from
+centralization and capture, and <em>toward</em> greater freedom and
+decentralization.</p>
+<p><strong>Reclaiming Ethereum’s Cypherpunk Ethos: A
+Roadmap</strong></p>
+<p>Ethereum can re-align with its cypherpunk first principles through
+deliberate technical, social, and economic steps. By fortifying the
+properties of the network that empower individuals and resist
+centralized control, Ethereum will not only stay true to its values but
+also enhance its robustness. Here I propose a set of practical measures
+– a <em>manifesto for action</em> – that the Ethereum community can
+undertake to ensure the platform remains a beacon of open, decentralized
+blockchain technology. These steps draw on the insights of thought
+leaders and the lessons of past governance decisions discussed
+above.</p>
+<p><strong>1. Embed Privacy at the Heart of Ethereum:</strong> Privacy
+is a core cypherpunk value and Ethereum must prioritize privacy
+solutions at both Layer 1 and Layer 2. This means continuing to develop
+and deploy technologies like zk-Snarks and stealth addresses to enable
+anonymous transactions and account balances. Vitalik has prototyped
+stealth addresses for ERC-721 assets and suggests their use for ETH and
+ERC-20 transfers​.<a href="#fn73" class="footnote-ref" id="fnref73"
+role="doc-noteref"><sup>73</sup></a></p>
+<p>Implementing EIPs that support one-time address protocols or
+encrypted memo fields can lay the groundwork for more private
+transactions. Moreover, supporting privacy-focused Layer 2s (like Aztec
+Network’s zk-rollup with encrypted transactions) aligns with Ethereum’s
+ethos – these solutions allow users to shield their activity from prying
+eyes while still settling on Ethereum securely. As Eric Hughes wrote,
+<em>“privacy in an open society requires anonymous transaction
+systems”</em>, and Ethereum should become fertile ground for such
+systems​.</p>
+<p>The community should also oppose proposals that harm privacy, such as
+blanket KYC requirements at the protocol or client level. Instead,
+Ethereum can enable <em>selective disclosure</em>: users reveal
+information <em>only</em> when they choose, via cryptographic proofs. By
+championing tools like Passport (ZK identity proofs) and dark pools for
+trading, Ethereum can fulfill the cypherpunk promise that <em>“an
+anonymous system empowers individuals to reveal their identity when
+desired and only when desired; this is the essence of privacy.”</em>​</p>
+<p>In practice, a more private Ethereum will involve integrating L1
+support for things like BLS12-381 curves (for zk-SNARK efficiency) (such
+as is included in Pectra) and making privacy-preserving dApps
+first-class citizens. Ultimately, <em>financial privacy = financial
+freedom</em>, and Ethereum’s credibility as the “World Computer” depends
+on users being able to use it without broadcasting their entire life
+on-chain.</p>
+<p><strong>2. Harden Censorship Resistance at the Protocol
+Level:</strong> Ethereum should not rely on social norms alone to handle
+censorship – it must bolster the protocol with technical safeguards. One
+approach is to implement Proposer-Builder Separation (PBS) natively​.<a
+href="#fn74" class="footnote-ref" id="fnref74"
+role="doc-noteref"><sup>74</sup></a> By separating block proposers
+(validators) from transaction builders (who assemble optimal bundles),
+Ethereum can prevent any single builder from having too much influence.
+Even more, an <em>enshrined PBS</em> can require that multiple builders
+or a committee collaborate, making censorship by one party
+ineffective​.<a href="#fn75" class="footnote-ref" id="fnref75"
+role="doc-noteref"><sup>75</sup></a></p>
+<p>Additionally, ideas like Inclusion Lists or Encrypted Mempools would
+give validators a mechanism to flag certain transactions that must be
+included in the next blocks or hide transaction contents until after
+inclusion, respectively. The goal is to design Ethereum such that
+<em>even if 50% of validators wanted to censor, they technically
+couldn’t prevent inclusion of transactions</em> without breaking
+consensus rules (and thus getting slashed). <em>Slashing conditions</em>
+themselves might be extended in future to penalize overt censorship –
+e.g., if a validator refuses to include a valid transactions for X slots
+and others pick it up, that could count as a slashable offense.</p>
+<p>This is tricky to get right, but the principle is to encode credible
+neutrality into the chain’s logic. As Vitalik notes, base-layer
+neutrality should be verifiable​.<a href="#fn76" class="footnote-ref"
+id="fnref76" role="doc-noteref"><sup>76</sup></a> Ethereum could, for
+instance, randomize or constrain block contents in certain ways to foil
+censoring strategies. Another simpler step: continue to diversify relay
+and MEV infrastructure – support open-source, non-censoring MEV relays
+(like UltraSound, Agnostic Relay) and perhaps one day incorporate an
+in-protocol auction for MEV that doesn’t censor. If Ethereum remains the
+best example of <em>“the network routes around censorship”</em>, it will
+uphold its first principles and set itself apart from more permissioned
+chains. To quote John Gilmore again: <em>“The Net treats censorship as
+damage and routes around it.”</em>​ Ethereum should strive to make this
+literally true in its design.</p>
+<p><strong>3. Radically Decentralize Staking and Nodes:</strong> The
+community must tackle staking centralization head-on to preserve
+security and self-sovereignty. Encouraging solo staking should be a
+priority – through education, lowering hardware requirements, and
+perhaps incentive tweaks. For example, protocols could slightly adjust
+rewards: one idea floated is to give <em>marginally higher rewards to
+validators beyond the largest pools</em> (to counteract liquidity
+advantage). While tricky economically, it’s worth analyzing.</p>
+<p>Meanwhile, community initiatives like SSV (Secret Shared Validators)
+and Obol Network that let users form mini-pools without trusting a
+central operator should get broad support. These allow a group of
+friends or a DAO to run a validator collectively such that no single one
+can misbehave – distributing trust and ensuring no “Lido” grows too
+dominant. If Lido remains huge, making it more decentralized internally
+(many independent node operators under the Lido umbrella) is the
+next-best thing, and indeed Lido is moving that direction.</p>
+<p>On the node side, Ethereum should continue investing in light client
+protocols. A fully decentralized Ethereum means users shouldn’t have to
+rely on Infura/Alchemy to access the chain. Projects like Ultralight
+clients (running in browsers or phones) and Portal Network (serving
+historical data in decentralized ways) are crucial. When users can
+easily run a node or at least a trust-minimized client, the power of
+middlemen fades. MetaMask and other wallets can integrate such clients,
+reducing the silent centralization of infrastructure.</p>
+<p>Additionally, Ethereum governance should welcome more independent
+participants: for instance, by supporting community staking projects
+(Rocket Pool, decentralized staking collectives) via EF grants or
+ecosystem funds. <em>The more entities validating, the more
+decentralized Ethereum becomes.</em> Balaji Srinivasan’s <em>Nakamoto
+coefficient</em> concept can serve as a KPI: Ethereum should strive to
+raise the minimum number of entities required to compromise it​.</p>
+<p>Today that number might be ~4 (Lido, Coinbase, Kraken, Binance).
+Through the above efforts, perhaps in a couple of years it could be 10
+or 20, and none with &gt;10%. Every increment makes Ethereum sturdier
+against capture. Decentralizing nodes also has a political effect: it’s
+easier for a government to pressure a handful of companies than tens of
+thousands of citizens. Therefore, boosting the ranks of home stakers and
+node runners is not just a technical goal but a <em>cypherpunk
+shield</em> against authority.</p>
+<p>Hal Finney dreamed of a world where <em>“untraceable digital
+cash”</em> and networks put individuals beyond financial surveillance; a
+widely distributed Ethereum fulfills that dream by denying any single
+vector for surveillance or shutdown.</p>
+<p><strong>4. Reinforce Credible Neutrality and Open Access:</strong>
+Ethereum should formally enshrine the principle of credible neutrality
+in its culture – and arguably, even in documentation or a
+“constitution.” This means making it explicit that <em>the Ethereum
+protocol does not discriminate on the basis of origin, destination, or
+purpose of transactions</em>. One practical step is for the Ethereum
+Foundation and client teams to adopt a “Credible Neutrality Policy.”</p>
+<p>For example, they might pledge to never build protocol features that
+favor or exclude specific classes of users or applications. Any proposal
+that violates neutrality (like say, an EIP to blacklist an address or
+give preferential treatment to certain dApps) would be summarily
+rejected as against Ethereum’s mission. This norm is mostly in place
+already, but stating it clearly would help resolve future ambiguous
+cases.</p>
+<p>Another aspect is ensuring permissionless access to Ethereum at all
+levels. Running a validator only requires 32 ETH and a computer – no
+approval needed – and this should remain so (no “staking licenses” or
+KYC imposed on the protocol). The same for deploying contracts:
+<em>anyone</em> can deploy any code (if they pay gas), and that
+neutrality must hold even under external pressure.</p>
+<p>To solidify this, the community could produce a short Ethereum Bill
+of Rights – e.g., “Any user has the right to self-custody their assets,
+to privacy, to inclusion in the ledger if following the protocol rules,
+and to fork the protocol code” etc. While not an enforceable legal
+document, it would be a guiding light and public commitment. It could
+echo the Cypherpunk Manifesto in tone, updated for Ethereum’s
+context.</p>
+<p>For instance: <em>“Ethereum users are entitled to financial privacy,
+security, and autonomy; Ethereum will not be a tool of surveillance or
+exclusion.”</em> This kind of declaration, if widely endorsed by
+developers, sets the expectation that even as Ethereum interfaces with
+the “real world,” it will maintain a <em>permissionless core</em>.
+Moreover, cooperation with other open-source and decentralized projects
+can amplify this stance.</p>
+<p>Ethereum should remain compatible and friendly to networks like
+Bitcoin (shared ideals on censorship-resistance) and integrate with
+privacy networks (like partnering with Tor/I2P for network layer privacy
+or Filecoin/Swarm for uncensorable storage). By being part of a broader
+decentralized ecosystem, Ethereum strengthens the “web of
+trustlessness.” Vitalik listed <em>“building tools, not empires”</em>
+and a <em>“cooperative mindset”</em> as cypherpunk values​ – indeed,
+Ethereum should interoperate, not wall itself off. That way, no single
+platform dominates; instead, users flow through a constellation of
+decentralized services, with Ethereum as one core component.</p>
+<p>The overarching point is to keep Ethereum horizontally open, never
+vertically integrated into a monopoly. That defends against any one
+actor or government capturing the whole stack.</p>
+<p><strong>5. Improve Governance Transparency and Community
+Voice:</strong> While Ethereum deliberately eschews on-chain governance
+(no coin voting in protocol changes), it can still enhance the openness
+and inclusivity of its governance process. The AllCoreDevs calls and the
+Ethereum Magicians forum are forums for decision-making, but these can
+be made more accessible. Simple steps like publishing user-friendly
+minutes of core dev calls (already done by contributors like Tim Beiko
+and others) and public issue tracking for major decisions help demystify
+governance. The community should also insist on a broad consensus
+threshold for contentious changes – effectively a social contract that
+protocol upgrades will not be forced through against strong opposition
+from a significant minority. This informal rule has been followed (e.g.,
+ProgPoW GPU-mining change was stalled amid controversy​).</p>
+<p>It aligns with the idea that Ethereum’s governance is
+legitimacy-based​ – changes need widespread legitimacy, not just a 51%
+majority. To realign with cypherpunk roots, Ethereum governance should
+favor <em>conservatism</em> in the base layer (to minimize attack
+surface and coercion potential) while encouraging
+<em>experimentation</em> at the edges (via dApps, L2s, etc.). This way,
+the base layer remains a neutral, stable foundation (the cryptographic
+commons), much like how the cypherpunks imagined fundamental protocols
+(like TCP/IP, PGP) being open infrastructure. One practical initiative
+could be to form a “Ethereum Values” working group (somewhat like ETHCat
+Herders but focused on philosophical alignment) to periodically evaluate
+whether proposals or ecosystem trends uphold the core values. This group
+could produce non-binding reports – for instance, assessing the state of
+censorship resistance or decentralization each year and recommending
+actions (kind of like an accountability report).</p>
+<p>Think of it as Ethereum’s internal watchdog for its principles. By
+having an organized voice for values, the community ensures that
+efficiency or profit motives do not quietly override fundamental
+principles.</p>
+<p><strong>6. Continue Public Goods Funding for Cypherpunk
+Tech:</strong> The Ethereum ecosystem, via entities like the Ethereum
+Foundation, Gitcoin, Moloch DAO, etc., should aggressively fund projects
+that enhance decentralization and privacy. This includes second-layer
+privacy solutions (mixers, ZK-proof systems), decentralized
+infrastructure (hosting frontends on IPFS, building decentralized RPC
+networks), and alternative client implementations (to keep
+diversity).</p>
+<p>It also means supporting education and hackathons to bring in
+developers passionate about these issues – essentially growing the next
+generation of cypherpunks within Ethereum. Recall that early cypherpunks
+wrote code and gave it away (PGP, Tor, etc.) as public goods. Ethereum’s
+community can mirror that: identify the gaps (like the need for an easy
+mobile light wallet, or a truly decentralized exchange that can’t be
+shut down) and collectively resource those efforts.</p>
+<p>Thankfully, Ethereum’s culture already leans this way with things
+like Gitcoin grants. But scaling it up – perhaps via protocol-funded DAO
+funds in the future – will ensure cypherpunk-aligned projects outcompete
+VC-funded convenience-oriented ones. An example: instead of relying on
+Chainalysis or other blockchain surveillance, Ethereum could fund teams
+to build <em>user-friendly coinjoin or ring-signature</em> mechanisms
+that make chain analysis harder, protecting users by default.</p>
+<p>Another example: funding community-run validator pools in underserved
+regions to improve geographic distribution (a form of decentralization
+public good). Each public good funded for Ethereum’s decentralization
+and privacy is an investment in the network’s long-term
+independence.</p>
+<p><strong>7. Foster a Culture of Cypherpunk Advocacy:</strong> Lastly,
+and perhaps most importantly, Ethereum should nurture its cultural
+identity as a cypherpunk project. This involves community leaders and
+influencers – from core developers to app developers to educators –
+consistently communicating <em>why</em> decentralization and privacy
+matter, especially to newcomers attracted by hype or profits.
+Initiatives like Ethereum Governance workshops and Ethics in Ethereum
+discussions at conferences (Devcon, etc.) can reinforce these
+values.</p>
+<p>The story of Ethereum should be told not just as “world computer for
+cool apps,” but as <em>part of a decades-long struggle for digital
+liberty</em>. When people see Ethereum in the lineage of the
+cypherpunks, of Bitcoin, of the fight against surveillance, they are
+more likely to respect and continue those values. Edward Snowden’s
+appearances at crypto conferences (he spoke at EthCC 2022 via video) are
+great examples – the community hearing directly from a privacy hero
+galvanizes support for those causes. (But as a counterpoint, the U.S.
+government is aggressive with its dislike for Snowden, and thus his
+involvement likely fuels anti-crypto sentiment currently manifesting in
+regulation by enforcement).</p>
+<p>The Ethereum Foundation could also collaborate with organizations
+like the Electronic Frontier Foundation (EFF) on campaigns around
+encryption, or with the Zcash community on privacy research – uniting
+the broader cypherpunk-minded communities. Internally, doing regular
+“decentralization checkups” – for instance, Ethereum client teams
+voluntarily publishing stats on diversity, staking pools reporting on
+decentralization efforts – makes it part of the culture to track and
+improve these metrics.</p>
+<p>And of course, community members should be encouraged to actually
+<em>use</em> the decentralized tools: run a node, try a privacy wallet,
+experiment with posting content to IPFS via Ethereum. The more firsthand
+experience users have with decentralization, the stronger their
+commitment to it.</p>
+<p>In essence, Ethereum needs to keep alive the restless, rebellious
+spirit that birthed it. That spirit can be summarized as: <em>Don’t
+Trust. Verify.</em>; <em>Protect the user, not the powers that be.</em>;
+<em>Decentralize all the things.</em> It means sometimes making
+decisions that favor resilience over short-term adoption. As Vitalik
+warned, if we don’t resist convenience that leads to centralization,
+we’ll end up rebuilding Web2 on blockchain​. Reclaiming Ethereum’s
+cypherpunk soul is about ensuring every layer of the stack and every
+layer of the community reflect the fundamental aim of empowering
+individuals.</p>
+<p>By implementing these steps – embedding privacy, hardening
+neutrality, decentralizing participation, and strengthening its culture
+– Ethereum can truly <em>“upgrade”</em> itself not just in throughput,
+but in principle. The result would be a blockchain that can withstand
+state-level attacks on privacy or attempts at control, because its
+community and technology are architected to route around them. It would
+also differentiate Ethereum in a world where many blockchains are
+compromising on decentralization for speed or regulatory acceptance.
+Ethereum could proudly stand as <em>the network that will not sell
+out</em>.</p>
+<p><strong>Conclusion: A Call to Action for the Ethereum
+Community</strong></p>
+<p>Ethereum’s journey from a bold experiment to a global platform has
+been nothing short of extraordinary. But with success comes the
+temptation to compromise – to make small concessions that, over time,
+could transform an open network of empowerment into something
+unrecognizable. I have argued that Ethereum must consciously
+<strong>return to its cypherpunk first principles</strong> now, at this
+pivotal moment, to avoid drifting into mediocrity or co-option. This is
+not a call to revert to the past, but to carry forward the original
+ethos into the future with renewed focus.</p>
+<p>The good news is that the Ethereum community already holds the keys
+to prevent the network from being derailed. The cypherpunk values of
+decentralization, privacy, and censorship-resistance are not abstract
+ideals here – they are <em>active design goals</em>, as seen in recent
+efforts by core developers and researchers. Vitalik’s reminder that
+<em>“if we do not resist, we risk losing the unique value of the crypto
+ecosystem”</em>​should ring in our ears. The unique value of Ethereum
+<em>is</em> that it enables unstoppable applications and self-sovereign
+finance on a scale the world has never seen. To safeguard that, each of
+us in the community – developers, node operators, users, educators – has
+a role to play.</p>
+<p>To Ethereum developers: keep writing code that empowers and protects
+users. Optimize for decentralization even if it’s harder. Implement
+those privacy features and don’t shy away from tackling censorship at
+the protocol level. Remember the old cypherpunk adage: <em>“Cypherpunks
+write code”</em>​ – your code can literally preserve freedom for
+millions.</p>
+<p>To ETH holders and investors: support the long-term health of the
+network over short-term gains. Decentralization may not pump token price
+overnight, but it is what gives ETH lasting value. Delegate your stake
+to smaller pools or run a validator. Fund public goods. Vote with your
+capital for projects and companies that uphold Ethereum’s values, not
+those who undermine them.</p>
+<p>To dApp developers and infrastructure providers: resist the easy path
+of centralization. Yes, running your own servers or complying with every
+regulation might seem pragmatic – until it erodes the very reason users
+want a decentralized app. Innovate on decentralized alternatives. As
+Snowden admonished, <em>“the world doesn’t need more banks”</em>​ – so
+strive not to build bank-like intermediaries on Ethereum. Instead, build
+the tools that let users be their own bank, their own identity provider,
+their own custodian.</p>
+<p>To regulators and institutions observing Ethereum: understand that
+Ethereum’s core principles are its strength, not a weakness. A neutered,
+heavily regulated Ethereum that loses its censorship-resistance will
+simply see innovation move elsewhere – it would be a lose-lose outcome.
+Working with Ethereum means accepting its fundamental properties (just
+as the internet’s design had to be accepted). Censorship resistance, for
+example, is <em>“the only protection users have from political
+change,”</em> as Edward Snowden reminds us​. Don’t push for Ethereum to
+become something it isn’t – engage with it on its own terms, which
+include openness and neutrality.</p>
+<p>And to the <em>Ethereum community at large</em>, spread across
+Reddit, Discord, Twitter, hackathons and meetups around the world: this
+is your movement<strong>.</strong> The spirit of the cypherpunks lives
+on in each one of you who believes that technology can set us free.
+Speak up when you see proposals or actions that betray Ethereum’s ethos.
+Educate newcomers that decentralization is the <em>feature</em>, not a
+bug to be trimmed. Continue the traditions of transparency, inclusivity,
+and collaborative dissent that have defined Ethereum’s governance so
+far. As the saying goes, <em>the price of liberty is eternal
+vigilance</em>. We must be vigilant that Ethereum stays on the path of
+liberty.</p>
+<p>In 1993, cypherpunk co-founder John Gilmore, photographed with dark
+sunglasses on the cover of Wired, declared: <em>“The Net interprets
+censorship as damage and routes around it.”</em>​</p>
+<p>In 2025 and beyond, let it be said that Ethereum interprets
+centralization as damage and routes around it. That will only be true if
+we, the Ethereum community, make it so through our choices and
+actions.</p>
+<p>Ethereum has a chance to be the backbone of a freer, fairer digital
+future, but only if it remains faithful to the ideals that birthed it.
+By realigning with its cypherpunk first principles, Ethereum can ensure
+it doesn’t just survive increased commercialization and regulation – it
+thrives <em>without compromising</em> what makes it special. The world
+needs a decentralized global platform now more than ever, as financial
+systems and social media become ever more centralized and surveilled.
+Ethereum can rise to that occasion by doubling down on decentralization
+and privacy.</p>
+<p>In closing, remember Timothy May’s rallying cry from the Crypto
+Anarchist Manifesto: <em>“Arise, you have nothing to lose but your
+barbed wire fences!”</em>​ For Ethereum, those fences represent the old
+paradigm–centralized control, compromised privacy, and permissioned
+innovation. Ethereum was built to tear down such barriers. Now is the
+time for the community to recenter on its cypherpunk first principles,
+to write code that protects freedom, and to build a blockchain that
+lives up to the ideals of its pioneers.</p>
+<p>The call to action is clear: Keep Ethereum free, decentralized, and
+true to its cypherpunk legacy.</p>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li
+id="fn1"><p>https://decrypt.co/10215/researcher-vlad-zamfir-ethereums-legal-question-is-an-inevitable-crisis<a
+href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>https://www.activism.net/cypherpunk/manifesto.html<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn3"><p>https://cryptovalleyjournal.com/education/basics/ethereum-2020/<a
+href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn4"><p>https://medium.com/@cryptohodler212/joseph-lubin-joining-the-book-of-ethereum-booe-d4baed72b50f<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Crypto Valley Journal, supra at 3<a href="#fnref5"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn6"><p>https://vitalik.eth.limo/general/2023/12/28/cypherpunk.html<a
+href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Id<a href="#fnref7" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Id<a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Id<a href="#fnref9" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Id<a href="#fnref10" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Id<a href="#fnref11" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn12"><p>https://nakamotoinstitute.org/library/trusted-third-parties/<a
+href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>Decrypt, supra at 1<a href="#fnref13"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn14"><p>https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html<a
+href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Id<a href="#fnref15" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn16"><p>Id<a href="#fnref16" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn17"><p>https://relai.app/blog/hal-finney-quotes<a
+href="#fnref17" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn18"><p>https://chaum.com/security-without-identification/<a
+href="#fnref18" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn19"><p>Vitalik, supra at 6<a href="#fnref19"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn20"><p>Id<a href="#fnref20" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn21"><p>https://www.odaily.news/en/post/5182662<a
+href="#fnref21" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn22"><p>Chaum, supra at 18<a href="#fnref22"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn23"><p>https://cointelegraph.com/news/ethereum-solo-validators-that-censor-blocks-should-be-tolerated-says-buterin<a
+href="#fnref23" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn24"><p>Id<a href="#fnref24" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn25"><p>Id<a href="#fnref25" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn26"><p>https://en.wikiquote.org/wiki/John_Gilmore<a
+href="#fnref26" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn27"><p>Cointelegraph, supra at 23<a href="#fnref27"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn28"><p>Id<a href="#fnref28" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn29"><p>https://www.odaily.news/en/post/5182662<a
+href="#fnref29" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn30"><p>Id<a href="#fnref30" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn31"><p>Vitalik, supra at 6<a href="#fnref31"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn32"><p>https://future.com/what-the-merge-means-for-ethereum-with-danny-ryan/<a
+href="#fnref32" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn33"><p>Id<a href="#fnref33" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn34"><p>Id<a href="#fnref34" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn35"><p>https://research.lido.fi/t/why-doesnt-lido-self-limit/6206<a
+href="#fnref35" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn36"><p>Id<a href="#fnref36" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn37"><p>https://www.brickken.com/en/post/blog-nick-szabo<a
+href="#fnref37" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn38"><p>Nakamoto, supra at 12<a href="#fnref38"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn39"><p>Lido, <em>supra at</em> 35<a href="#fnref39"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn40"><p>https://blog.chainsafe.io/censorship-resistance/<a
+href="#fnref40" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn41"><p>Id<a href="#fnref41" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn42"><p>Vitalik, supra at 6<a href="#fnref42"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn43"><p>Id<a href="#fnref43" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn44"><p>Id<a href="#fnref44" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn45"><p>Id<a href="#fnref45" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn46"><p>Manifesto, supra at 2<a href="#fnref46"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn47"><p>See generally Vitalik, supra at 6<a href="#fnref47"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn48"><p>See generally
+https://www.wired.com/story/ethereums-co-founder-says-sec-is-gaslighting-us-about-crypto/<a
+href="#fnref48" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn49"><p>Vitalik, supra at 6<a href="#fnref49"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn50"><p>See generally
+https://news.earn.com/quantifying-decentralization-e39db233c28e<a
+href="#fnref50" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn51"><p>https://eprint.iacr.org/2023/1493.pdf<a href="#fnref51"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn52"><p>See generally Future, supra at 32<a href="#fnref52"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn53"><p>https://www.youtube.com/watch?v=E4VmDitYB2w<a
+href="#fnref53" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn54"><p>https://en.cryptonomist.ch/2020/03/10/vlad-zamfir-ethereum/<a
+href="#fnref54" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn55"><p>https://medium.com/cryptolawreview/against-szabos-law-for-a-new-crypto-legal-system-d00d0f3d3827<a
+href="#fnref55" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn56"><p>Decrypt, supra at 1<a href="#fnref56"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn57"><p>Vitalik, supra at 6<a href="#fnref57"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn58"><p>https://www.bankless.com/block-building-pbs-mev<a
+href="#fnref58" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn59"><p>https://www.youtube.com/watch?v=Z9VCdiSPJEQ<a
+href="#fnref59" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn60"><p>https://www.preethikasireddy.com/post/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem<a
+href="#fnref60" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn61"><p>https://www.coindesk.com/markets/2019/06/27/snowden-the-most-important-thing-bitcoin-is-missing-right-now-is-privacy<a
+href="#fnref61" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn62"><p>Cryptonomist, supra at 54<a href="#fnref62"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn63"><p>Id<a href="#fnref63" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn64"><p>https://www.nytimes.com/2025/02/22/technology/crypto-exchange-bybit-hack.html<a
+href="#fnref64" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn65"><p>Cointelegraph, supra at 23<a href="#fnref65"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn66"><p>https://ercwl.medium.com/the-case-for-social-slashing-59277ff4d9c7<a
+href="#fnref66" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn67"><p>https://cryptobriefing.com/51-of-ethereum-blocks-can-now-be-censored-its-time-for-flashbots-to-shut-down<a
+href="#fnref67" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn68"><p>Youtube, supra, at 59<a href="#fnref68"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn69"><p>Future, supra at 32<a href="#fnref69"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn70"><p>https://www.galaxy.com/insights/research/ethereum-governance<a
+href="#fnref70" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn71"><p>Vitalik, supra at 6<a href="#fnref71"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn72"><p>Id<a href="#fnref72" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn73"><p>Id<a href="#fnref73" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li
+id="fn74"><p>https://ethresear.ch/t/why-enshrine-proposer-builder-separation-a-viable-path-to-epbs/15710<a
+href="#fnref74" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn75"><p>Cointelegraph, supra at 23<a href="#fnref75"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn76"><p>Vitalik, supra at 6<a href="#fnref76"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+</body>
+</html>
